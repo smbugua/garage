@@ -4,8 +4,8 @@ $query="SELECT * from brand order by  name asc";
 $result=mysql_query($query);
 ?>
   <div id="content-header">
-    <div id="breadcrumb"> <a href="index.php" title="Go to Home" class="tip-bottom"><i class="icon-home"></i> Home</a> <a href="#" class="current">Cities Details</a> </div>
-    <h1>City Details</h1>
+    <div id="breadcrumb"> <a href="index.php" title="Go to Home" class="tip-bottom"><i class="icon-home"></i> Home</a> <a href="#" class="current">Brand Details</a> </div>
+    <h1>Brand Details</h1>
   </div>
   <div class="container-fluid">
     <hr>
@@ -14,8 +14,8 @@ $result=mysql_query($query);
 
 <div class="widget-box">
           <div class="widget-title"> <span class="icon"><i class="icon-th"></i></span>
-            <h5>Towns Details</h5>
-            <a href="addbrand.php" class="btn btn-success">Add City</a>
+            <h5>Brand Details</h5>
+            <a href="addbrand.php" class="btn btn-success">Add Brand</a>
           </div>
           <div class="widget-content nopadding">
             <table class="table table-bordered data-table">

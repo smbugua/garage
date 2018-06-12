@@ -4,8 +4,8 @@ $query="SELECT * from itemtype order by  name asc";
 $result=mysql_query($query);
 ?>
   <div id="content-header">
-    <div id="breadcrumb"> <a href="index.php" title="Go to Home" class="tip-bottom"><i class="icon-home"></i> Home</a> <a href="#" class="current">Projects Details</a> </div>
-    <h1>Project Details</h1>
+    <div id="breadcrumb"> <a href="index.php" title="Go to Home" class="tip-bottom"><i class="icon-home"></i> Home</a> <a href="#" class="current">Item Type Details</a> </div>
+    <h1>Item Type Details</h1>
   </div>
   <div class="container-fluid">
     <hr>
@@ -14,8 +14,8 @@ $result=mysql_query($query);
 
 <div class="widget-box">
           <div class="widget-title"> <span class="icon"><i class="icon-th"></i></span>
-            <h5>Project Details</h5>
-            <a href="additemtype.php" class="btn btn-success">Add Project</a>
+            <h5>Item Types Details</h5>
+            <a href="additemtype.php" class="btn btn-success">Add Item Type</a>
           </div>
           <div class="widget-content nopadding">
             <table class="table table-bordered data-table">
